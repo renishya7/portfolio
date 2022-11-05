@@ -1,0 +1,40 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
+    "title": "Gatsby Starter for Portfolio Minimal",
+    "titleTemplate": "%s · Portfolio Minimal",
+    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+    "author": "Renishya Jayan",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "A writer with different hats - technical writer, UX writer, content strategist, and so on. All these different hats come down to one thing — a friendly guide who guides readers with a human-centric approach.",
+    "social": {
+      "github": "https://github.com/reishya7",
+      "linkedin": "https://www.linkedin.com/in/renishya-jayan/",
+      "mail": "mailto:renishya@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "Portfolio" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Features", "url": "/#features" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/resume.pdf"
+      },
+      "footer": [
+        { "label": "", "url": "" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}
