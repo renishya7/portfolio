@@ -3,7 +3,7 @@ title: "Create a portfolio website"
 description: "Learn how to create your portfolio website using Gatsby."
 date: "2022-11-09"
 banner:
-  src: "../../images/portfolio.jpg"
+  src: "../../images/Portfolio.png"
   alt: ""
 categories:
   - "Portfolio"
@@ -36,7 +36,7 @@ keywords:
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .AClass {
     flex-direction: column;
   }
