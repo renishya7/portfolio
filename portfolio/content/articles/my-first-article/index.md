@@ -15,59 +15,55 @@ keywords:
   - "Blog"
 ---
 
-## Code block test
+To build my portfolio website, I have used a Gatsby starter template. [Gatsby](https://www.gatsbyjs.com/docs/glossary/static-site-generator/) is a static site generator that builds HTML pages by compiling data with components. Gatsby has a [starter library](https://www.gatsbyjs.com/starters/) from which you can pick a template of your choice and modify it to fit your needs. The template I chose was from [konstantinmuenster](https://github.com/konstantinmuenster). 
 
-```css
-.AClass .Subtitle {
-  margin: -0.5rem 0 0 0;
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-}
+## Before you start
 
-.AnotherClass p {
-  font-size: 1.125rem;
-  margin-bottom: 2rem;
-}
+If you're entirely new to version control systems( for example, Git ), IDEs, and command line worlds, as I was a year ago, you need to consider the following:
+- a  Git repository so that you can host your website later 
+- an IDE to modify the template
+- a command line tool to push and commit your change to the remote repository
 
-.AThirdClass {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+For the above purposes, I have used the following:
 
-@media (max-width: 600px) {
-  .AClass {
-    flex-direction: column;
-  }
-  .AnotherClass {
-    display: block;
-  }
-}
-```
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/)
 
-Inline code: `print()`
+In addition, you need to download [Node.js](https://nodejs.org/en/) to run a Gatsby project, as Gatsby is built with Node.js. Node.js comes with the npm package manager. Gatsby uses npm to run command line interface(CLI) tasks. 
 
-Lorem ipsum dolor sit amed Vel ut spiritday all cultural Lili Elbe lorem in sexuality Herstory sit lorem Ac Genderless homoflexible trans Carrie Fisher Transgender love family cross-dresser ac a ut Ac xe she ut Tina Anselmi woman Marina Abramovich Lesbians and Gays Support the Miners Ipsum Chimamanda Ngozi sed sit Equal movement gender ut est lorem Laura Jane Grace Emma Watson sem eu.
+> **Tip:** If you're a first-timer, [create a GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) and [clone it](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) locally.
 
-**Maria Montessori vel sem in eu Leelah Alcorn** In eu Leelah Alcorn in Margaret Sanger future Martha Nussbaum eu gender non-conformity Family cross-dresser ac a ut representation drag queen Ac third wave Hannah Gadsby culture feminismus ac suffragette cisgender in a eu Ac a ut representation drag queen Out Lorem ac no means no f word sed Emmeline Pankhurst.
+## Get started
+1. Open your repository in IDE and navigate to the terminal.
+2. Run the following commands to ensure that node and npm are installed:
+   ```node --version``` <br/>
+   ```npm --version``` <br/>
+3. Run the npm command to install Gatsby CLI.<br/>
+    ```npm install -g gatsby-cli```
+  You will see a success message that the Gatsby CLI is installed.
 
-## Second Headline
+## Select your template
+1. Go to the [Gatsby starter library](https://www.gatsbyjs.com/starters/).
+2. Optionally, filter for portfolio to show only portfolio templates.
+3. Click the portfolio of your choice. <br/>
+   > **Tip:** You can visit the demo and see what it looks like.
+4. Under **Install with gatsby-cli** field, copy the code.
 
-Est vel est appreciation Nadia Murad Basee Taha cross-dressing vel Ut mi sit ut eu id Samira Wiley sit vel sem Ut romance in gender studies ballroom Sit lorem ac no means no f word sed Emmeline Pankhurst Ac sorellanza In Lea Delaria in grrlpwr pansexual intersectional yas queen diritti id mi Sem Audre Lorde Sappho in sed et empowerment genderqueer intersex.
+## Build the project
+1. Go to your IDE terminal.
+2. Paste the template code you copied. <br/>
+   > **Tip:** You can change the project's name in the copied code to one of your choice.
+3. Run the code. 
+   This will install all the Gatsby dependencies you need to run the project.
+4. After you get the success message, run the command: <br/>
+   ```cd {your project name}```
+5. To build the project, run the command:<br/>
+   ```gatsby develop```<br/>
+    This command builds the website and provides a link to view the website locally.
+6. Click the link and view the build.
 
-![This is the alt tag.](../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg "This is a markdown [caption](https://konstantin.digital).")
+## Modify the template
 
-Feminizmas eu Dian Fossey ac third wave notion supporting androgyny dui ut People a Sylvia Plath mi sex-positivity demisexual a equality suffragettes pronouns Vel est appreciation Nadia Murad Basee Taha cross-dressing vel Sustainability ut sit dui Lesbians and Gays Support the Miners local eu Hanna Gaby Odiele est queer Misty Copeland She ut Tina Anselmi woman Marina Abramovich Lesbians and Gays Support the Miners local Equal ac et ut romance in Second wave sit friendship grl pwr castro.
-
-### Third Headline
-
-Vel sem Sed Roxane Gay Caitlin Moran Ace id Amelia Earhart Gloria Steinem Samira Wiley sit Amelia Earhart Gloria Steinem eu In et ac in Alexandria Ocasio-Cortez Emmy Noether a Bi-visibility Dance Simone de Beauvoir eu sem.
-
-#### Fourth Headline
-
-Alexandria Ocasio-Cortez Emmy Noether a Bi-visibility dui et voices Stonewall Inn sem et Ac pride month lorem et eu dui sit eu ut Eu ut Et in lorem id sed Id Kate Bornstein smash the patriarchy et et eu motivational ut In Chimamanda Ngozi sed sit strength.
-
-![This is the alt tag.](../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg)
-
-Vel herstory Bossy sit ac xe she ut Tina Anselmi woman Marina Abramovich Spiritday all cultural Lili Elbe lorem in sexuality Transformation lgbt freedom et ac sem Sem we are everywhere Notion supporting androgyny dui ut dance Simone de Beauvoir eu sem sit Inge Schonöethal Feltrinelli female gaze ac Franca viola.
+You can now go back to the code and modify the project to fill in your details. 
+> **Tip:**   If unsure, change some test and run it and see if it works locally. You can also go to the Gatsby starter library, where you found the template, and click the **Source** to take you to the repository. There you will have instructions on how to modify the template.
