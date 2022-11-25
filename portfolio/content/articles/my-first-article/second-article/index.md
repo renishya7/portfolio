@@ -3,7 +3,7 @@ title: "Why I Built a Portfolio Website"
 description: ""
 date: "2022-11-09"
 banner:
-  src: "../../images/Portfolio.png"
+  src: "../../images/karl-abuid-7ezVb0oTQ6M-unsplash.png"
   alt: ""
 categories:
   - "Portfolio"
