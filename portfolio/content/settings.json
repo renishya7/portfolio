@@ -6,11 +6,11 @@
     "titleTemplate": "%s · Portfolio Minimal",
     "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
     "author": "Renishya Jayan",
-    "avatar": "../content/images/gatsby.png",
+    "avatar": "../content/images/profile_image.png",
     "bio": "A writer with different hats - technical writer, UX writer, content strategist, and so on. All these different hats come down to one thing — a friendly guide who guides readers with a human-centric approach.",
     "social": {
-      "github": "https://github.com/reishya7",
-      "linkedin": "https://www.linkedin.com/in/renishya-jayan/",
+      "github": "https://github.com/renishya7",
+      "linkedin": "https://linkedin.com/in/renishya-jayan",
       "mail": "mailto:renishya@gmail.com"
     }
   },
@@ -20,12 +20,12 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" }
+        { "label": "Projects", "url": "/#features" }
       ],
       "ctaButton": {
-        "openNewTab": true,
+        "openNewTab": false,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": ""
       },
       "footer": [
         { "label": "", "url": "" }

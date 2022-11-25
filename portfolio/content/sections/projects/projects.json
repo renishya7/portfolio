@@ -2,29 +2,18 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "Information architecture",
+      "title": "Information architecture revamp",
+      "description": " This project involved identifying gaps and problems with the current information architecture of a Developer Portal and redesigning to make it scalable and easy to navigate. After evaluating other developer portals and frameworks, I based the information \n architecture on the Diátaxis framework. Since the repository for this project is not in public domain, I have not included further information. But if you are interested to hear about the approaches I took for the design, I'm happy to chat about it.",
+      "tags": ["Content Strategy", "Content Design"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
-      ]
+        "src": "../../images/IA.png",
+        "alt": "Quick Setup"
+      }
     },
     {
-      "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
+      "visible": false,
+      "category": "",
       "title": "Add more sections!",
       "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
       "tags": ["Custom Sections", "Easy-2-Use"],
