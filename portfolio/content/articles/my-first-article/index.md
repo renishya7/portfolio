@@ -66,4 +66,4 @@ In addition, you need to download [Node.js](https://nodejs.org/en/) to run a Gat
 ## Modify the template
 
 You can now go back to the code and modify the project to fill in your details. 
-> **Tip:**   If unsure, change some test and run it and see if it works locally. You can also go to the Gatsby starter library, where you found the template, and click the **Source** to take you to the repository. There you will have instructions on how to modify the template.
+> **Tip:**   If unsure, change some text in the code and run it and see if it works locally. You can also go to the Gatsby starter library, where you found the template, and click the **Source** to take you to the repository. There you will have instructions on how to modify the template.
